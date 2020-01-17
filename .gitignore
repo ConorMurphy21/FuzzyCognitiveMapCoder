@@ -2,3 +2,6 @@ venv
 .idea
 resources
 tests/resources
+dist
+build
+main.spec
