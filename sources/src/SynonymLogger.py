@@ -1,6 +1,6 @@
 import csv
 import os
-from sources import FuzzyCogMap
+from src import FuzzyCogMap
 
 
 # Responsible for logging the encodings of this algorithm

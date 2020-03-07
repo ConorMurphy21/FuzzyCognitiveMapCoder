@@ -1,7 +1,7 @@
 from tkinter import Tk
 from tkinter.filedialog import askopenfilenames
 from pip._vendor.distlib.compat import raw_input
-from sources.Synonym import Synonym
+from src.Synonym import Synonym
 
 
 # responsible for querying whenever user input is required

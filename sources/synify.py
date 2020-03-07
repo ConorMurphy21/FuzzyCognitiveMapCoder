@@ -1,5 +1,5 @@
-from sources.SynonymList import SynonymList
-from sources.UserQuery import UserQuery
+from src.SynonymList import SynonymList
+from src.UserQuery import UserQuery
 from shutil import copyfile
 
 

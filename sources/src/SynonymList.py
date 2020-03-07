@@ -1,7 +1,7 @@
 import csv
 
-from sources.Synonym import Synonym
-from sources.UserQuery import UserQuery
+from src.Synonym import Synonym
+from src.UserQuery import UserQuery
 
 
 class SynonymList(list):
