@@ -2,8 +2,8 @@ import csv
 from collections import OrderedDict
 import os
 
-from src.Synonym import Synonym
-from src.SynonymList import SynonymList
+from src.synonym import Synonym
+from src.synonymList import SynonymList
 
 
 class FuzzyCogMap:

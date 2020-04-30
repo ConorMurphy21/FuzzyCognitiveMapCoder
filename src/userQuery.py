@@ -1,7 +1,7 @@
 from tkinter import Tk
-from tkinter.filedialog import askopenfilenames
+from tkinter.filedialog import askopenfilenames, askopenfilename
 from pip._vendor.distlib.compat import raw_input
-from src.Synonym import Synonym
+from src.synonym import Synonym
 
 
 # responsible for querying whenever user input is required
@@ -170,6 +170,6 @@ class UserQuery:
     # get a list of files on which to run the algorithm on
     @staticmethod
     def get_files(request):
-        #return ['C:/Users/conor/PycharmProjects/FuzzyCognitaveMapDecoder/resources/toy_test/001_test.csv']
+        #return 'C:/Users/conor/PycharmProjects/FuzzyCognitaveMapDecoder/resources/toy_test/001_test.csv'
         Tk().withdraw()  # we don't want a full GUI, so keep the root window from appearing
-        return askopenfilenames()  # show an "Open" dialog box and return the path to the selected file
+        return askopenfilename()  # show an "Open" dialog box and return the path to the selected file

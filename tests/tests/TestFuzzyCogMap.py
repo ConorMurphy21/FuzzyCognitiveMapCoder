@@ -3,8 +3,8 @@ import os
 import random
 from unittest import TestCase
 
-from src.FuzzyCogMap import FuzzyCogMap
-from src.SynonymList import SynonymList
+from src.fuzzyCogMap import FuzzyCogMap
+from src.synonymList import SynonymList
 from tests.tests.SimpleUserQuery import SimpleUserQuery
 from tests.tests.TempFileManager import TempFileManager
 

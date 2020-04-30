@@ -1,10 +1,10 @@
 import csv
 import os
 import datetime
-from src.SynonymList import SynonymList
-from src.UserQuery import UserQuery
-from src.FuzzyCogMap import FuzzyCogMap
-from src.SynonymLogger import SynonymLogger
+from src.synonymList import SynonymList
+from src.userQuery import UserQuery
+from src.fuzzyCogMap import FuzzyCogMap
+from src.synonymLogger import SynonymLogger
 
 
 # for now there is nothing to make sure the user knows what settings were correct.

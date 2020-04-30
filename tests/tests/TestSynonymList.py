@@ -1,7 +1,7 @@
 import os
 from unittest import TestCase
 
-from src.SynonymList import SynonymList
+from src.synonymList import SynonymList
 
 from tests.tests.TempFileManager import TempFileManager
 
